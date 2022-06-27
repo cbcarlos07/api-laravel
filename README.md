@@ -37,12 +37,15 @@ Pode ser, que no final do comando dê um problema, mas pode seguir normalmente
 ## Rotas dos produtos
 
 Todos os produtos [GET]
+    
     http://localhost:8002/product
 
 Por Id [GET]
+    
     http://localhost:8002/product/1
 
 Criar [POST]
+    
     http://localhost:8002/product
 
     {
@@ -69,3 +72,4 @@ Remoção [DELETE]
 
     http://localhost:8002/product/1
 
+Arquivo [JSON](https://github.com/cbcarlos07/api-laravel/blob/main/img/Insomnia_2022-06-27.json)
