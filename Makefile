@@ -1,5 +1,6 @@
 up:
 	docker-compose up -d
+	cp ./backend/.env.example ./backend/.env
 	docker-compose restart php7_3
 	docker-compose exec php7_3 chmod 777 -R storage/
 	docker-compose exec php7_3 composer install
